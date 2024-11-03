@@ -25,7 +25,7 @@ export function UserSelect() {
               <Icon icon="mdi:teddy-bear" className="w-16 h-16 text-blue-600" />
             </div>
             <span className="text-lg font-medium text-amber-900">
-              Nounours
+              Nounours 🐻
             </span>
           </button>
           <button
@@ -36,7 +36,7 @@ export function UserSelect() {
               <Icon icon="mdi:teddy-bear" className="w-16 h-16 text-pink-600" />
             </div>
             <span className="text-lg font-medium text-amber-900">
-              Nounours
+              Nounours 🐻‍❄️
             </span>
           </button>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Image, Send, Gift, ArrowLeft } from 'lucide-react';
+import { Image, Send, Video, ArrowLeft } from 'lucide-react';
 import { Icon } from '@iconify/react';
 import { useStore } from '../store';
 import { GifPicker } from './GifPicker';
@@ -66,7 +66,7 @@ export function Chat() {
         >
           <ArrowLeft className="w-6 h-6 text-amber-900" />
         </button>
-        <h2 className="text-xl font-semibold text-amber-900">NounourChat</h2>
+        <h2 className="text-xl font-semibold text-amber-900">Nounours App</h2>
         <Icon icon="mdi:teddy-bear" className="w-8 h-8 text-amber-600 ml-auto" />
       </div>
 
@@ -121,7 +121,7 @@ export function Chat() {
             onClick={() => setShowGifPicker(!showGifPicker)}
             className="p-2 hover:bg-gray-100 rounded-full"
           >
-            <Gift className="w-6 h-6 text-amber-600" />
+            <Video className="w-6 h-6 text-amber-600" />
           </button>
           <input
             type="text"
