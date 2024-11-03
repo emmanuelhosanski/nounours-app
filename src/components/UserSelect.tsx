@@ -14,7 +14,7 @@ export function UserSelect() {
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full">
         <h1 className="text-3xl font-bold text-center text-amber-800 mb-8">
-          NounourChat
+          Nounours App
         </h1>
         <div className="grid grid-cols-2 gap-6">
           <button
@@ -25,7 +25,7 @@ export function UserSelect() {
               <Icon icon="mdi:teddy-bear" className="w-16 h-16 text-blue-600" />
             </div>
             <span className="text-lg font-medium text-amber-900">
-              Nounours Homme
+              Nounours 🐻
             </span>
           </button>
           <button
@@ -36,7 +36,7 @@ export function UserSelect() {
               <Icon icon="mdi:teddy-bear" className="w-16 h-16 text-pink-600" />
             </div>
             <span className="text-lg font-medium text-amber-900">
-              Nounours Femme
+              Nounours 🐻‍❄️
             </span>
           </button>
         </div>

@@ -61,7 +61,7 @@ export function Reminders() {
                 {reminder.text}
               </span>
               <span className="text-sm text-gray-500">
-                Par {reminder.createdBy === 'husband' ? 'Nounours' : 'Nounours Femme'}
+                par {reminder.createdBy === 'husband' ? '🐻' : '🐻‍❄️'}
               </span>
             </div>
           ))}

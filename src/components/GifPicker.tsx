@@ -41,7 +41,7 @@ export function GifPicker({ onSelect, onClose }: GifPickerProps) {
       <div className="overflow-y-auto h-[calc(100%-60px)]">
         <Grid
           width={400}
-          columns={2}
+          columns={4}
           fetchGifs={fetchGifs}
           key={search}
           onGifClick={(gif) => onSelect(gif.images.original.url)}
